@@ -137,3 +137,21 @@ for(let x = 0; x < array.length; x++){
 
 //part 7 
 
+let students = ["Alice", "Bob", "Charlie"] ;
+
+let subjects = ["Math", "Science"]; 
+
+for(x = 0; x < students.length; x++){
+
+    console.log(students[x]);
+    
+    for(y = 0; y < subjects.length; y++){
+
+        console.log(subjects[y]);
+        
+
+    }
+    console.log("----------------------------------------");
+}
+
+//Nested Lopps work by 
