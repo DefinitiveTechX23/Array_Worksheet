@@ -143,15 +143,17 @@ let subjects = ["Math", "Science"];
 
 for(x = 0; x < students.length; x++){
 
-    console.log(students[x]);
+    
     
     for(y = 0; y < subjects.length; y++){
 
-        console.log(subjects[y]);
+        console.log(students[x] + "-" + subjects[y]);
         
 
     }
     console.log("----------------------------------------");
 }
 
-//Nested Lopps work by 
+//Nested Lopps work by having a loop iterate within another loop,
+//the loop on the on the outside dictates how many times the loop on the inside runs.
+// the inner loop runs for how ever long the outer loop is set for. 
