@@ -121,3 +121,19 @@ if(array1.length > array2.length){
 
 //PART 6
 
+const array = [10, 20, 30, 40, 50, 60];
+
+for(let x = 0; x < array.length; x++){
+
+
+    if(array[x] % 2 === 0){
+        console.log(array[x]);
+
+
+
+
+    }
+}
+
+//part 7 
+
