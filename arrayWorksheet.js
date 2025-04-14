@@ -33,3 +33,25 @@ console.log(fruits);
 
 console.log(fruits.length);
 
+//Part 3 
+
+for (let i = 0; i < fruits.length ; i++ ){
+
+
+
+console.log(fruits[i]);
+ 
+
+
+}
+
+//UPPERCASE VERSION
+
+for (let i = 0; i < fruits.length ; i++ ){
+
+    
+
+    console.log(fruits[i].toUpperCase());
+
+}
+
