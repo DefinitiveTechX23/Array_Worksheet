@@ -76,4 +76,48 @@ for (Counter = 0; Counter<fruits.length; Counter++) {
 
 }
 
+//PART 4
+
+let cart = [];
+
+cart.push("bacon");
+cart.push("eggs");
+cart.push("steak");
+
+console.log(cart);
+
+cart.pop();
+
+console.log(cart);
+console.log(cart.length);
+
+//REVERSE ORDER
+
+let numbers = [1, 2, 3, 4, 5];
+
+for( let x = numbers.length - 1 ; x >= 0 ; x--){
+
+
+console.log(numbers[x]);
+
+}
+
+//PART 5
+
+let array1 = ["a", "b", "c", "d"];
+
+let array2= ["red", "green", "blue"];
+
+if(array1.length > array2.length){
+
+    console.log("array1 has a greater length than array 2"); }
+
+    else if (array2.length > array1.length) {
+
+        console.log("array2 has a greater length than array 1");
+
+    
+}
+
+//PART 6
 
